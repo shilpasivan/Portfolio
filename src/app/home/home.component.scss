@@ -1,0 +1,43 @@
+.homepage{
+    padding:0;
+    margin:0;
+   background-color:black;
+   background-image: url("/src/assets/background.jpg");
+    color: white;
+    max-width: 100%;
+    max-height: 100%;
+    .homepage{
+        max-width: 20%;
+        max-height:80%
+    }
+    .background-image {
+      
+      background-size: cover; /* Adjust to fit the element */
+      background-repeat: no-repeat; /* Prevent image repetition */
+      /* You can add more background properties as needed */
+    }
+    
+    h5{
+        color:white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .image-container {
+        display: inline-block;
+        border: 2px solid white;
+        padding: 10px;
+      
+      }
+      .edu{
+        margin: 2% 2% 2% 2%;
+        .education-card {
+          max-width: 400px;
+          margin: 20px auto;
+          background-image: url('/assets/'); /* Replace with your image path */
+          background-size: cover;
+          color: white; 
+        }
+      }
+      
+    
+      
+}

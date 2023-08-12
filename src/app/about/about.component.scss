@@ -1,0 +1,16 @@
+.image-container {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px;
+  
+  }
+  .edu{
+    margin: 2% 2% 2% 2%;
+    .education-card {
+      max-width: 400px;
+      margin: 20px auto;
+      background-image: url('/assets/'); /* Replace with your image path */
+      background-size: cover;
+      color: white; 
+    }
+  }

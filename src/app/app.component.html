@@ -1,0 +1,27 @@
+<header fxLayout="row" fxLayoutAlign="space-between center" class="header-container">
+    <div fxLayout="row" fxLayoutAlign="start center">
+      <div class="menu-icon">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="end center" class="nav-links">
+      <a mat-button routerLink="#home">Home</a>
+      <a mat-button routerLink="#about">About</a>
+      <a mat-button routerLink="#contact">Contact</a>
+    </div>
+  </header>
+
+<div id="home">
+  <app-home></app-home>
+</div>
+
+<div id="about">
+  <app-about></app-about>
+</div>
+<div id="contact">
+  <app-contact></app-contact>
+</div>
+
+<app-footer></app-footer>

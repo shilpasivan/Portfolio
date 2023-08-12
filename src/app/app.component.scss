@@ -1,0 +1,56 @@
+.main-content{
+    max-height: 100vh;
+}
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 6px 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .menu-icon.open {
+    transform: rotate(45deg);
+  }
+  
+  .menu-icon.open .bar:nth-child(1) {
+    transform: translate(0, 7px) rotate(-45deg);
+  }
+  
+  .menu-icon.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-icon.open .bar:nth-child(3) {
+    transform: translate(0, -7px) rotate(-45deg);
+  }
+  
+.header-container {
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    a {
+      margin-left: 10px;
+      color: white;
+      text-decoration: none;
+    }
+  }
